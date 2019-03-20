@@ -130,7 +130,7 @@ extension OnlyPictures: OnlyPictureInsertRemoveProtocol{
         
         // Up onwards other recent imageviews after insertion at 0th position.
         for index in stride(from: 0, to: self.listPictureImageViews.count, by: 1) {
-            stackviewOfImageViews.bringSubviewToFront(self.listPictureImageViews[index])
+            stackviewOfImageViews.bringSubview(toFront: self.listPictureImageViews[index])
         }
         
         self.updateVisiblePicturesWithEffectOfNewInsertionMethod()      // It works to remove first picture to show last/middle inserted picture.
@@ -202,13 +202,13 @@ extension OnlyPictures: OnlyPictureInsertRemoveProtocol{
         
         // Indicates that, index should be above visible pictures starting index to ending index.
         guard index <= self.picturesCount else {
-            print("OnlyPictures error: Index out of bounds. ")
+            assertionFailure("OnlyPictures error: Index out of bounds. ")
             return nil
         }
         
         
         func returnWithIndexNotInVisiblePicturesWindow(stringLowerUpper: String){
-            print("OnlyPictures: Index is \(stringLowerUpper) than the boundary of visible pictures, we will increment count. It's your responsibility to add picture in array you used for allocating OnlyPictures.")
+            assertionFailure("OnlyPictures: Index is \(stringLowerUpper) than the boundary of visible pictures, we will increment count. It's your responsibility to add picture in array you used for allocating OnlyPictures.")
             
             // Increment count to plus one.
             self.picturesCount += 1
@@ -260,7 +260,7 @@ extension OnlyPictures: OnlyPictureInsertRemoveProtocol{
         
         // Up onwards other recent imageviews after insertion at specific position.
         for index in stride(from: indexInStackView, to: self.listPictureImageViews.count, by: 1) {
-            stackviewOfImageViews.bringSubviewToFront(self.listPictureImageViews[index])
+            stackviewOfImageViews.bringSubview(toFront: self.listPictureImageViews[index])
         }
         
         self.updateVisiblePicturesWithEffectOfNewInsertionMethod()
@@ -400,13 +400,13 @@ extension OnlyPictures{
         
         // Indicates that, index should be above visible pictures starting index to ending index.
         guard index < self.picturesCount else {
-            print("OnlyPictures error: Index out of bounds. ")
+            assertionFailure("OnlyPictures error: Index out of bounds. ")
             return
         }
         
         
         func returnWithIndexNotInVisiblePicturesWindow(stringLowerUpper: String){
-            print("OnlyPictures: Index is \(stringLowerUpper) than the boundary of visible pictures, we will increment count. It's your responsibility to add picture in array you used for allocating pictures.")
+            assertionFailure("OnlyPictures: Index is \(stringLowerUpper) than the boundary of visible pictures, we will increment count. It's your responsibility to add picture in array you used for allocating pictures.")
             
             // Increment count to plus one.
             self.decrementCountToMinusOne()
@@ -496,7 +496,7 @@ extension OnlyPictures{
                 
                 // Up onwards imageview after insertion position.
                 for indexOfUpward in stride(from: 1, to: self.listPictureImageViews.count, by: 1) {
-                    stackviewOfImageViews.bringSubviewToFront(self.listPictureImageViews[indexOfUpward])
+                    stackviewOfImageViews.bringSubview(toFront: self.listPictureImageViews[indexOfUpward])
                 }
             }
         }
