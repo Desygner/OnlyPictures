@@ -31,3 +31,10 @@ Carthage
 # `pod install` in .travis.yml
 #
 # Pods/
+
+## Environment normalization:
+/.bundle/
+/vendor/bundle
+/lib/bundler/man/
+.vendor
+.bundle/config
