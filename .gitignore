@@ -38,3 +38,4 @@ Carthage
 /lib/bundler/man/
 .vendor
 .bundle/config
+/.idea
