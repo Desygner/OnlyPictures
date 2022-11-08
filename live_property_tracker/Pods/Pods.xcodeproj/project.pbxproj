@@ -42,16 +42,16 @@
 
 /* Begin PBXFileReference section */
 		027415980599C90CD6322EC32B16484F /* Pods-OnlyPictures_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OnlyPictures_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		0D19E1F611886C3B40D208633FF6313E /* OnlyPictures.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OnlyPictures.framework; path = OnlyPictures.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D19E1F611886C3B40D208633FF6313E /* OnlyPictures.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OnlyPictures.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		10569C1A46E534C2B46C4B3A472E6C2E /* Pods-OnlyPictures_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OnlyPictures_Tests.modulemap"; sourceTree = "<group>"; };
-		1524F607CE40B10FE27ECEC92FCC7403 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		1524F607CE40B10FE27ECEC92FCC7403 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		1684B04E4A1B8A60121D302DC3BEF9CC /* OnlyPictures-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OnlyPictures-dummy.m"; sourceTree = "<group>"; };
 		1B4D492632ECFE9DAD0F7D17D85B5BC1 /* OnlyPictures-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OnlyPictures-prefix.pch"; sourceTree = "<group>"; };
 		22D243B6FC07FD6DC7C76DB3A3BBEE52 /* Pods-OnlyPictures_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OnlyPictures_Tests-umbrella.h"; sourceTree = "<group>"; };
-		38F6D9A74D53991B4F81E1FF7BC28CF3 /* Pods_OnlyPictures_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OnlyPictures_Example.framework; path = "Pods-OnlyPictures_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38F6D9A74D53991B4F81E1FF7BC28CF3 /* Pods_OnlyPictures_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OnlyPictures_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A3E280B10F63D6D7595AD6F3416A59F /* OnlyPictures-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OnlyPictures-umbrella.h"; sourceTree = "<group>"; };
 		3D3B5E2613FE19A9DD45744B4B7E4899 /* Pods-OnlyPictures_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OnlyPictures_Example.modulemap"; sourceTree = "<group>"; };
-		45160D8DF6423F08C7A1C016CA142E68 /* OnlyPictures.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = OnlyPictures.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		45160D8DF6423F08C7A1C016CA142E68 /* OnlyPictures.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = OnlyPictures.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4D483106A01630685DF5ED26D76991CD /* OnlyPictures-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "OnlyPictures-Info.plist"; sourceTree = "<group>"; };
 		51CF597A78815422F96DE8BCA330BD26 /* Pods-OnlyPictures_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OnlyPictures_Example-umbrella.h"; sourceTree = "<group>"; };
 		5882701E9B2F9077D05C4B2F400F3944 /* Pods-OnlyPictures_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OnlyPictures_Example-Info.plist"; sourceTree = "<group>"; };
@@ -60,16 +60,16 @@
 		7902672E9CD270B84CD24232197F5511 /* Pods-OnlyPictures_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OnlyPictures_Example.release.xcconfig"; sourceTree = "<group>"; };
 		833C9386BD2C7DFF480A5BCCF4693EF1 /* OnlyPicturesAnimations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OnlyPicturesAnimations.swift; path = OnlyPictures/Classes/OnlyPicturesAnimations.swift; sourceTree = "<group>"; };
 		99F80781623B47B83CEA41C01EF74134 /* Pods-OnlyPictures_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OnlyPictures_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		9B51EBF861AFA79A5391CD4F68EF4DA1 /* Pods_OnlyPictures_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OnlyPictures_Tests.framework; path = "Pods-OnlyPictures_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B51EBF861AFA79A5391CD4F68EF4DA1 /* Pods_OnlyPictures_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OnlyPictures_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C1A740829E2652473B5802E16C994F8 /* OnlyPictures.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OnlyPictures.swift; path = OnlyPictures/Classes/OnlyPictures.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A2FD3CB3338C6A1F45DA0042BB3EF63A /* Pods-OnlyPictures_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OnlyPictures_Example-dummy.m"; sourceTree = "<group>"; };
 		A838BA7BD01601B8D94518D72FA15DFB /* OnlyPicturesProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OnlyPicturesProtocol.swift; path = OnlyPictures/Classes/OnlyPicturesProtocol.swift; sourceTree = "<group>"; };
 		B22B8846C1A312148E43AE2C41E19621 /* OnlyPictureImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OnlyPictureImageView.swift; path = OnlyPictures/Classes/OnlyPictureImageView.swift; sourceTree = "<group>"; };
 		BCE58FF55C9E889802E484BF9E87BC20 /* Pods-OnlyPictures_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OnlyPictures_Tests-dummy.m"; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D33DFEB6F3C4EB4740CC571C432EBE37 /* Pods-OnlyPictures_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OnlyPictures_Tests-Info.plist"; sourceTree = "<group>"; };
-		E67834EFC7508279143FFEAEAEE5143A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E67834EFC7508279143FFEAEAEE5143A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F14DC92028FB446CE057C41ADE029CE2 /* OnlyHorizontalPictures.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OnlyHorizontalPictures.swift; path = OnlyPictures/Classes/OnlyHorizontalPictures.swift; sourceTree = "<group>"; };
 		F23698D8CB5BE5FC6B8149B4D785085F /* Pods-OnlyPictures_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OnlyPictures_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F25B3D6AB522A1DE43C10BB312A1ECEB /* OnlyPictures.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OnlyPictures.modulemap; sourceTree = "<group>"; };
@@ -333,6 +333,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
@@ -446,7 +447,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -481,7 +481,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -492,6 +491,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -541,8 +541,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -552,6 +551,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -639,7 +639,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -669,7 +668,6 @@
 				PRODUCT_MODULE_NAME = OnlyPictures;
 				PRODUCT_NAME = OnlyPictures;
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -702,7 +700,6 @@
 				PRODUCT_MODULE_NAME = OnlyPictures;
 				PRODUCT_NAME = OnlyPictures;
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -738,7 +735,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
